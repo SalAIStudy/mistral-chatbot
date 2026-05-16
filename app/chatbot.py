@@ -7,7 +7,7 @@ class ChatBot:
     def __init__(self):
 
         self.client = Mistral(
-            api_key="iywAVH019mrgh9lagpD0rxkvh8265Sek"
+            api_key=MISTRAL_API_KEY
         )
 
         self.messages = [
